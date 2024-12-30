@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* Prevents scrolling */
+}
+
+#legend {
+  padding: 10px;
+  background-color: #f4f4f4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10; /* Ensures legend stays on top */
+}
+
+#legend button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+#c {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid #ccc;
+}
